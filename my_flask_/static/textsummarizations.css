@@ -1,0 +1,210 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header1 {
+    background-color: #000000;
+    color: #fff;
+    height: 4%;
+    
+}
+.header1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 7%;
+    font-weight: bold;
+    font-family:  'Alice', serif;
+    font-size: larger;
+}
+.header1 .hello {
+    max-width: 100px;
+    height: 9vh;
+    position: relative;
+    left: -15%;
+    margin: 3px;
+
+}
+.header1-right {
+    display: flex;
+    align-items: center;
+}
+.header1-right a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.header1-right  :hover {
+    color: #06decc;
+    text-decoration: underline;
+}
+
+h2{
+    position:relative;
+    left: -43%;
+    font-family: 'Alice', serif;
+    
+   
+}
+
+.fgh{
+    width: 65%;
+    height: 70%;
+    border-radius: 8px;
+    left:3%;
+    position: absolute;
+    top: 18%;
+    box-shadow: 0 20px 40px #000;
+}
+
+
+.htitle{
+    font-size: 3rem;
+    left:3%;
+    position:absolute;
+   top: 85%;
+}
+
+
+.dis{
+    position: absolute;
+    top: 109%;
+    font-size: 1.5rem;
+    left: 3%;
+   
+}
+
+.dis h4 {
+    font-size: 2rem;
+    top: 15%;
+   left: 1%;
+    position: relative;
+
+}
+
+.mnv{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    left: 20%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px #0194f7;
+
+}
+.dis1{
+    top:140%;
+    position:absolute;
+    font-size: 1.5rem;
+}
+.ak{
+    width: 98%;
+    height: 100%;
+    top: 102%;
+    position: absolute;
+   
+    border-radius: 4%;
+}
+
+
+/*topic*/
+h3{
+    position: absolute;
+    left:72%;
+    top: 18%;
+    font-size: 1.5rem;
+}
+
+/*topic1 card*/
+.topic1{
+    width: 27%;
+    height: 14%;
+    background-color: #f7f2f2;
+    top: 26%;
+    position: absolute;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px #000;
+
+}
+
+.im1{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+   
+    border-radius: 5%;
+}
+
+h4{
+    position:absolute;
+    color: #000000;
+    left:42%;
+    font-size: 1.5rem;
+    top: -6%;
+}
+
+/*topic2 card*/
+.topic2{
+    width: 27%;
+    height: 14%;
+    background-color: #f7f2f2;
+    top: 44%;
+    position: absolute;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px #000;
+
+}
+
+.im2{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+   
+    border-radius: 5%;
+}
+
+.text2{
+    position:absolute;
+    color: #000000;
+    left:42%;
+    font-size: 1.5rem;
+    top: -18%;
+}
+
+
+/*topic2 card*/
+.topic3{
+    width: 27%;
+    height: 14%;
+    background-color: #f7f2f2;
+    top: 62%;
+    position: absolute;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px #000;
+
+}
+
+.im3{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+   
+    border-radius: 5%;
+}
+
+.text3{
+    position:absolute;
+    color: #000000;
+    left:42%;
+    font-size: 1.5rem;
+    top: -18%;
+}
+
+
+
+

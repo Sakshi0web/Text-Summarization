@@ -1,0 +1,179 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header1 {
+    background-color: #000000;
+    color: #fff;
+    height: 4%;
+    
+}
+.header1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 7%;
+    font-weight: bold;
+    font-family:  'Alice', serif;
+    font-size: larger;
+}
+.header1 .hello {
+    max-width: 100px;
+    height: 9vh;
+    position: relative;
+    left: -15%;
+    margin: 3px;
+
+}
+.header1-right {
+    display: flex;
+    align-items: center;
+}
+.header1-right a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.header1-right  :hover {
+    color: #06decc;
+    text-decoration: underline;
+}
+
+h2{
+    position: relative;
+    left: -43%;
+    font-family: 'Alice', serif;
+}
+
+.im{
+    width: 65%;
+    height: 70%;
+    border-radius: 8px;
+    position: absolute;
+    left: 3%;
+    top: 18%;
+    box-shadow: 0 20px 40px black;
+}
+
+.tit1{
+    font-size: 3rem;
+    position: absolute;
+    top: 85%;
+    left: 3%;
+}
+
+.dis{
+    position: absolute;
+    top: 116%;
+    font-size: 1.5rem;
+    left: 3%;
+}
+
+.diffe{
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    left: 20%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px #1b90ded4;
+}
+
+.dis1{
+    position: absolute;
+    top: 292%;
+    left: 3%;
+    font-size: 1.5rem;
+}
+
+
+/* ----Topic---- */
+
+h3{
+   position: absolute;
+   left: 72%;
+   top: 18%;
+   font-size: 1.5rem;
+}
+
+/* -----topic1 card ------ */
+.topic1{
+    width: 27%;
+    height: 16%;
+    background-color: #f7f2f2;
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px black;
+}
+
+.im1{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5%;
+    
+}
+
+h4{
+    position: absolute;
+    color: #000000;
+    left: 42%;
+    font-size: 1.5rem;
+}
+
+/* -----topic2 card ------ */
+.topic2{
+    width: 27%;
+    height: 16%;
+    background-color: #f7f2f2;
+    position: absolute;
+    top: 44%;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px black;
+}
+
+.im2{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.text2{
+    position: absolute;
+    color: #000000;
+    left: 42%;
+    font-size: 1.5rem;
+    top: -12%;
+}
+
+/* -----topic3 card ------ */
+.topic3{
+    width: 27%;
+    height: 16%;
+    background-color: #f7f2f2;
+    position: absolute;
+    top: 62%;
+    left: 72%;
+    border-radius: 2%;
+    box-shadow: 0 10px 30px black;
+}
+
+.im3{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.text3{
+    position: absolute;
+    color: #000000;
+    left: 42%;
+    font-size: 1.5rem;
+    top: -20%;
+}

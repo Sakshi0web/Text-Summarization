@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{url_for('static',filename='/blogs.css')}}">
+    </head>
+    <body>
+        <div class="header1">
+            <div class="container">
+              <img src="static/image/rundown.jpg" class="hello"> 
+              <h2> TextRundownBox </h2>          
+            
+               <div class="header1-right">
+                
+                   <a href="{{ url_for('blogs') }}">Blogs</a>
+                   <a href="{{ url_for('login') }}">Login</a>
+                   <a href="#">Logout</a>
+                </div>
+                </div>
+          </div>
+
+          <h1>Blogs</h1>
+
+          <div class="abc">
+            <img src="static/image/summ.jpg" class="summ"> 
+            <div class="abc1">
+              <p> <b>What Is Text Summarizing?<b> </p>
+                <a href="{{ url_for('textsumm') }}"> <button id="redirectButton1">Read More</button></a>
+            </div>
+          </div>
+
+          <div class="xyz">
+            <img src="static/image/diffe.jpg" class="diff"> 
+            <div class="xyz1">
+              <p> <b>Differnt Between Paraphasing And Summarizing?<b> </p>
+                <a href="{{ url_for('diff') }}"> <button id="redirectButton">Read More</button></a>
+              </div>
+          </div>
+
+          <div class="pqr">
+            <img src="static/image/chatgpt.jpg" class="chatgpt"> 
+            <div class="pqr1">
+              <p> <b>Mastering The Art Of Writing With TextRundownBox & ChatGPT<b> </p>
+                <a href="{{ url_for('chatgpt') }}"><button id="redirectButton">Read More</button></a>
+            </div>
+          </div>
+
+
+          <script src="{{url_for('static',filename='/bolgs.js')}}"></script>
+    </body>
+</html>

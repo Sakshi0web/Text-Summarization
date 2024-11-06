@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{url_for('static',filename='/dashboard.css')}}">
+    </head>
+    <body>
+        <div class="header1">
+            <div class="container">
+              <img src=" static/image/rundown.jpg " class="hello">            
+            
+               <div class="header1-right">
+                
+                   <a href="{{ url_for('blogs') }}">Blogs</a>
+                   <a href="{{ url_for('login') }}">Login</a>
+                   
+                   <a href="{{url_for('logout')}}">Logout</a>
+                </div>
+                </div>
+          </div>
+
+
+          <div class="abc">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="pks">
+                  <h2 >Text Summarization</h2>
+                 
+                
+                
+                  <form action="/analyze" method="POST" enctype="multipart/form-data">
+                    <textarea name="rawtext" class="form-control", rows=9 placeholder="Enter your raw text"></textarea>
+                    <input type="file" name="file" accept=".pdf"> 
+                    <button class="byn btn-primary submitBtn" type="submit" value="Upload"> Submit</button>
+                   </form>
+           </div>
+        </div>
+              
+        </div>
+
+      <!--  <div class="box">
+            <div class="box-content">
+
+                <div class="box-front">
+                    <p> Text Summarizer</p>
+                    <h2> About Us</h2>
+
+                    <div class="box-back">
+                        <p>  Text Summarizer is an online summarizing tool that allows you to summarize long texts, paragraphs, and articles with their main concept in one click.
+                            It analyzes the entire document and summarizes the text by picking up the most important concepts. </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>-->
+      
+  
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='image/ti.png') }}" class="card-img" alt="">
+                <div class="card-body">
+                    <h1 class="card-title">Text Summarizer<h1>
+                        <p class="card-info">Text Summarizer is an online summarizing tool that allows you to summarize long texts, paragraphs, and articles with their main concept in one click.
+                            It analyzes the entire document and summarizes the text by picking up the most important concepts. </p>
+
+                </div>
+        </div>
+
+        <div class="card1">
+            <img src="{{ url_for('static', filename='image/text.png') }}" class="card-img1" alt="">
+                <div class="card-body1">
+                    <h1 class="card-title1">What is Text Summarization?</h1>
+                        <p class="card-info1">he automatic summarization of any text is the process of shortening a specific set of data to get the most important information.
+
+                            It is the process of creating a short summary of useful data by getting the main points written in the content.
+                            
+                            Our text summarizer uses advanced AI-based algorithms to analyze and summarize your content.
+                            It extracts the best appropriate sentences and generates the perfect summary of the given text.</p>
+                </div>
+        </div>
+
+
+        <div class="card2">
+            <img src="{{ url_for('static', filename='image/ti.png') }}" class="card-img2" alt="">
+                <div class="card-body2">
+                    <h1 class="card-title2">How to use this summary generator?<h1>
+                        <p class="card-info2">To use this summarizing tool, follow the below guideline:
+
+                            Write or paste the text in the above input box.
+                            Click the Summarize button.
+                            This summary tool will take all the important concepts, condense the input text and generates an accurate summarize text report within a fraction of a second. </p>
+
+                </div>
+        </div>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+           <!-- <h2> Text Summarizer</h2>
+            <p>  Text Summarizer is an online summarizing tool that allows you to summarize long texts, paragraphs, and articles with their main concept in one click.
+
+                It analyzes the entire document and summarizes the text by picking up the most important concepts. </p>
+             <h2> How to use this summary generator? </h2>
+             <p>To use this summarizing tool, follow the below guideline:
+
+                Write or paste the text in the above input box.
+                Click the Summarize button.
+                This summary tool will take all the important concepts, condense the input text and generates an accurate summarize text report within a fraction of a second.</p>
+                <h2>What is Text Summarization? </h2>
+                <p>The automatic summarization of any text is the process of shortening a specific set of data to get the most important information.
+
+                    It is the process of creating a short summary of useful data by getting the main points written in the content.
+                    
+                    Our text summarizer uses advanced AI-based algorithms to analyze and summarize your content.
+                    It extracts the best appropriate sentences and generates the perfect summary of the given text.</p>-->
+        <script src="" async defer></script>
+    </body>
+</html>
